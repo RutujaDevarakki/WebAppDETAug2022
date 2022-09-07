@@ -1,0 +1,20 @@
+﻿@page
+@model WebAppDETAug2022.Pages.HellowebModel
+@{
+}
+ <h2>Welcome to my site</h2>
+ <h3>Happy ! @DateTime.Today.DayOfWeek!!</h3>
+
+ Pages say some @Model.Message
+
+
+ <p>Discount is @Model.Discount</p>
+ <h3>Discount is upto @DateTime.Today.AddDays(1)</h3>
+ <h2>Apply the Coupon @Model.Coupon</h2>
+
+
+<p>@DateTime.Now</p>
+<p>@DateTime.IsLeapYear(2018)</p>
+
+
+<p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(3))</p>
