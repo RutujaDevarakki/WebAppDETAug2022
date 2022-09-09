@@ -13,6 +13,8 @@ namespace MVCDemo.Models
 
         [Range(0.01, 9999.99)]
         public decimal Price { get; set; }
+        public string Sauce { get; set; }
+        public string Toppings { get; set; }
     }
 
     public enum PizzaSize

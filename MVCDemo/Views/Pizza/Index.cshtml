@@ -4,7 +4,7 @@
 @{
 }
 
-No.of Pizza available = @Model.count
+@*No.of Pizza available = @Model.count
 <div class="table-responsive">
     <p>Details</p>
     <table class="table">
@@ -13,4 +13,7 @@ No.of Pizza available = @Model.count
             <tr><tb>@p.Name</tb></tr>
         }
     </table>
-</div>
+</div>*@
+
+
+<partial name="_PizzaList" />
